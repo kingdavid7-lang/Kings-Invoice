@@ -1,0 +1,245 @@
+.invoice-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    border-style: outset;
+    border-radius: 15px;
+    padding-left: 0px;
+    padding-bottom: 0%;
+    
+}
+
+button {
+    padding: 20px 30px;
+    color: #070606;
+    border: 1px rgb(250, 247, 243);
+    background-color: rgb(250, 247, 243);
+    font-size: small;
+    padding-left: 3px;
+    color: rgb(165, 163, 163);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+  }
+  button:hover {
+    background-color: rgb(184, 248, 8);
+    padding-left: 10px;
+    border-radius: 20px;
+    border-style: dotted;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: black;
+    
+  }
+
+  .left-column {
+    background-color: rgb(250, 247, 243);
+    border-radius: 15px;
+    margin-top: -20px;
+    width: 20%;
+    margin-right: 10px;
+    font-size: large;
+    color: rgb(1, 20, 20);
+    align-items: center;
+  }
+  .company-info {
+    margin: 10px;
+    display: flex;
+    padding-top: 2px;
+    align-items: center;
+  }
+
+  .help-logout {
+    margin-bottom: 50px;
+    padding-top: 95px;
+    padding-bottom: 20px;
+  }
+
+  .address-box {
+    color: white;
+    background-color: rgb(6, 2, 39);
+    display: flex;
+    margin-right: 6px;
+    justify-content: space-between;
+    width: 90%;
+    border-radius: 9px;
+    font-size: small;  
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+   
+   gap: 2px
+  }
+  
+  .center-column {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55%;
+    margin-left: 50px;
+  }
+ 
+  .address-box1 {
+    color: rgb(7, 6, 6);
+    background-color: rgb(250, 247, 243);
+    display: flex;  
+    align-items: center;
+    margin-right: 6px;
+    justify-content: space-between;
+    width: 90%;
+    border-radius: 9px;
+    font-size: small; 
+    margin-top: 19px; 
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+   .big {
+    padding-top: 20px;
+    
+   }
+   
+
+  .right-column {
+    width: 25%;
+
+  }
+  .user-profile {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  img {
+    border-radius: 50%;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  .profile-name {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin-top: 8px;
+    padding-top: 8px;
+    align-items: center;
+  }
+  .client-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .right {
+    background-color: rgb(250, 248, 248);
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 5%;
+    border-color: rgb(226, 241, 241);
+    margin-top: 5px;
+    padding-bottom: 15px;
+  }
+  hr {
+    width: 90%;
+  }
+  .word {
+    word-spacing: 3px;
+  }
+  .add-customer-button {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(208, 247, 225);
+    margin-left: 50px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: small;
+    color:#079b38
+  }
+  .basic-info {
+    background-color: rgb(250, 248, 248);
+    margin-top: 20px;
+    border-color: azure;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-left: 2px;
+    margin-right: -4px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+  }
+  form {
+    margin-left: 10px;
+    border-color: aliceblue;
+    font-size: small;
+
+  }
+  input {
+    margin-left: 0px;
+    padding-left: 50px;
+    width: 80%;
+    margin-top: 15px;
+    border-radius: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-color: aliceblue; 
+    font-size: large;
+  }
+  .send {
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(184, 248, 8);
+    margin-left: 50px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: small;
+    color: black;
+  }
+  .preview, .download {
+    color:#049735;
+
+  }
+
+  .pre-down {
+    display: flex;
+    margin-top: 30px;
+    background-color: aliceblue;
+    color:#049735;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: small;
+  }
+ td {
+    padding-left: 40px;
+    padding-top: 20px;
+    
+ }
+ .item-details-table {
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .address span {
+    display: block;
+    margin-top: 4px;
+  }
